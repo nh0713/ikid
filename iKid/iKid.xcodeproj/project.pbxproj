@@ -16,7 +16,6 @@
 		062B7923218265E2006ADA88 /* iKidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B7922218265E2006ADA88 /* iKidTests.swift */; };
 		062B792E218265E2006ADA88 /* iKidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B792D218265E2006ADA88 /* iKidUITests.swift */; };
 		062B793E218279B6006ADA88 /* TrumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B793D218279B6006ADA88 /* TrumpViewController.swift */; };
-		062B7940218281B8006ADA88 /* SpiderManMom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 062B793F218281B8006ADA88 /* SpiderManMom.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		062B792D218265E2006ADA88 /* iKidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidUITests.swift; sourceTree = "<group>"; };
 		062B792F218265E2006ADA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		062B793D218279B6006ADA88 /* TrumpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpViewController.swift; sourceTree = "<group>"; };
-		062B793F218281B8006ADA88 /* SpiderManMom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SpiderManMom.jpg; path = ../../../../../Downloads/SpiderManMom.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +101,6 @@
 		062B790A218265DE006ADA88 /* iKid */ = {
 			isa = PBXGroup;
 			children = (
-				062B793F218281B8006ADA88 /* SpiderManMom.jpg */,
 				062B790B218265DE006ADA88 /* AppDelegate.swift */,
 				062B790D218265DE006ADA88 /* MarvelViewController.swift */,
 				062B790F218265DE006ADA88 /* CollegeViewController.swift */,
@@ -241,7 +238,6 @@
 				062B7918218265E1006ADA88 /* LaunchScreen.storyboard in Resources */,
 				062B7915218265E1006ADA88 /* Assets.xcassets in Resources */,
 				062B7913218265DE006ADA88 /* Main.storyboard in Resources */,
-				062B7940218281B8006ADA88 /* SpiderManMom.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

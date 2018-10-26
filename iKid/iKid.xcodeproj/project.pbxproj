@@ -7,64 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		062B789821825D03006ADA88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B789721825D03006ADA88 /* AppDelegate.swift */; };
-		062B789A21825D03006ADA88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B789921825D03006ADA88 /* ViewController.swift */; };
-		062B789D21825D03006ADA88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062B789B21825D03006ADA88 /* Main.storyboard */; };
-		062B789F21825D06006ADA88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062B789E21825D06006ADA88 /* Assets.xcassets */; };
-		062B78A221825D06006ADA88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062B78A021825D06006ADA88 /* LaunchScreen.storyboard */; };
-		062B78AD21825D06006ADA88 /* iKidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B78AC21825D06006ADA88 /* iKidTests.swift */; };
-		062B78B821825D06006ADA88 /* iKidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B78B721825D06006ADA88 /* iKidUITests.swift */; };
+		062B790C218265DE006ADA88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B790B218265DE006ADA88 /* AppDelegate.swift */; };
+		062B790E218265DE006ADA88 /* MarvelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B790D218265DE006ADA88 /* MarvelViewController.swift */; };
+		062B7910218265DE006ADA88 /* CollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B790F218265DE006ADA88 /* CollegeViewController.swift */; };
+		062B7913218265DE006ADA88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062B7911218265DE006ADA88 /* Main.storyboard */; };
+		062B7915218265E1006ADA88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062B7914218265E1006ADA88 /* Assets.xcassets */; };
+		062B7918218265E1006ADA88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062B7916218265E1006ADA88 /* LaunchScreen.storyboard */; };
+		062B7923218265E2006ADA88 /* iKidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B7922218265E2006ADA88 /* iKidTests.swift */; };
+		062B792E218265E2006ADA88 /* iKidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B792D218265E2006ADA88 /* iKidUITests.swift */; };
+		062B793E218279B6006ADA88 /* TrumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B793D218279B6006ADA88 /* TrumpViewController.swift */; };
+		062B7940218281B8006ADA88 /* SpiderManMom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 062B793F218281B8006ADA88 /* SpiderManMom.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		062B78A921825D06006ADA88 /* PBXContainerItemProxy */ = {
+		062B791F218265E2006ADA88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 062B788C21825D03006ADA88 /* Project object */;
+			containerPortal = 062B7900218265DE006ADA88 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 062B789321825D03006ADA88;
+			remoteGlobalIDString = 062B7907218265DE006ADA88;
 			remoteInfo = iKid;
 		};
-		062B78B421825D06006ADA88 /* PBXContainerItemProxy */ = {
+		062B792A218265E2006ADA88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 062B788C21825D03006ADA88 /* Project object */;
+			containerPortal = 062B7900218265DE006ADA88 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 062B789321825D03006ADA88;
+			remoteGlobalIDString = 062B7907218265DE006ADA88;
 			remoteInfo = iKid;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		062B789421825D03006ADA88 /* iKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		062B789721825D03006ADA88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		062B789921825D03006ADA88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		062B789C21825D03006ADA88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		062B789E21825D06006ADA88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		062B78A121825D06006ADA88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		062B78A321825D06006ADA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		062B78A821825D06006ADA88 /* iKidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		062B78AC21825D06006ADA88 /* iKidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidTests.swift; sourceTree = "<group>"; };
-		062B78AE21825D06006ADA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		062B78B321825D06006ADA88 /* iKidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		062B78B721825D06006ADA88 /* iKidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidUITests.swift; sourceTree = "<group>"; };
-		062B78B921825D06006ADA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062B7908218265DE006ADA88 /* iKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		062B790B218265DE006ADA88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		062B790D218265DE006ADA88 /* MarvelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelViewController.swift; sourceTree = "<group>"; };
+		062B790F218265DE006ADA88 /* CollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeViewController.swift; sourceTree = "<group>"; };
+		062B7912218265DE006ADA88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		062B7914218265E1006ADA88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		062B7917218265E1006ADA88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		062B7919218265E1006ADA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062B791E218265E2006ADA88 /* iKidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		062B7922218265E2006ADA88 /* iKidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidTests.swift; sourceTree = "<group>"; };
+		062B7924218265E2006ADA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062B7929218265E2006ADA88 /* iKidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iKidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		062B792D218265E2006ADA88 /* iKidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iKidUITests.swift; sourceTree = "<group>"; };
+		062B792F218265E2006ADA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062B793D218279B6006ADA88 /* TrumpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpViewController.swift; sourceTree = "<group>"; };
+		062B793F218281B8006ADA88 /* SpiderManMom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SpiderManMom.jpg; path = ../../../../../Downloads/SpiderManMom.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		062B789121825D03006ADA88 /* Frameworks */ = {
+		062B7905218265DE006ADA88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		062B78A521825D06006ADA88 /* Frameworks */ = {
+		062B791B218265E2006ADA88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		062B78B021825D06006ADA88 /* Frameworks */ = {
+		062B7926218265E2006ADA88 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +80,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		062B788B21825D03006ADA88 = {
+		062B78FF218265DE006ADA88 = {
 			isa = PBXGroup;
 			children = (
-				062B789621825D03006ADA88 /* iKid */,
-				062B78AB21825D06006ADA88 /* iKidTests */,
-				062B78B621825D06006ADA88 /* iKidUITests */,
-				062B789521825D03006ADA88 /* Products */,
+				062B790A218265DE006ADA88 /* iKid */,
+				062B7921218265E2006ADA88 /* iKidTests */,
+				062B792C218265E2006ADA88 /* iKidUITests */,
+				062B7909218265DE006ADA88 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		062B789521825D03006ADA88 /* Products */ = {
+		062B7909218265DE006ADA88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				062B789421825D03006ADA88 /* iKid.app */,
-				062B78A821825D06006ADA88 /* iKidTests.xctest */,
-				062B78B321825D06006ADA88 /* iKidUITests.xctest */,
+				062B7908218265DE006ADA88 /* iKid.app */,
+				062B791E218265E2006ADA88 /* iKidTests.xctest */,
+				062B7929218265E2006ADA88 /* iKidUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		062B789621825D03006ADA88 /* iKid */ = {
+		062B790A218265DE006ADA88 /* iKid */ = {
 			isa = PBXGroup;
 			children = (
-				062B789721825D03006ADA88 /* AppDelegate.swift */,
-				062B789921825D03006ADA88 /* ViewController.swift */,
-				062B789B21825D03006ADA88 /* Main.storyboard */,
-				062B789E21825D06006ADA88 /* Assets.xcassets */,
-				062B78A021825D06006ADA88 /* LaunchScreen.storyboard */,
-				062B78A321825D06006ADA88 /* Info.plist */,
+				062B793F218281B8006ADA88 /* SpiderManMom.jpg */,
+				062B790B218265DE006ADA88 /* AppDelegate.swift */,
+				062B790D218265DE006ADA88 /* MarvelViewController.swift */,
+				062B790F218265DE006ADA88 /* CollegeViewController.swift */,
+				062B793D218279B6006ADA88 /* TrumpViewController.swift */,
+				062B7911218265DE006ADA88 /* Main.storyboard */,
+				062B7914218265E1006ADA88 /* Assets.xcassets */,
+				062B7916218265E1006ADA88 /* LaunchScreen.storyboard */,
+				062B7919218265E1006ADA88 /* Info.plist */,
 			);
 			path = iKid;
 			sourceTree = "<group>";
 		};
-		062B78AB21825D06006ADA88 /* iKidTests */ = {
+		062B7921218265E2006ADA88 /* iKidTests */ = {
 			isa = PBXGroup;
 			children = (
-				062B78AC21825D06006ADA88 /* iKidTests.swift */,
-				062B78AE21825D06006ADA88 /* Info.plist */,
+				062B7922218265E2006ADA88 /* iKidTests.swift */,
+				062B7924218265E2006ADA88 /* Info.plist */,
 			);
 			path = iKidTests;
 			sourceTree = "<group>";
 		};
-		062B78B621825D06006ADA88 /* iKidUITests */ = {
+		062B792C218265E2006ADA88 /* iKidUITests */ = {
 			isa = PBXGroup;
 			children = (
-				062B78B721825D06006ADA88 /* iKidUITests.swift */,
-				062B78B921825D06006ADA88 /* Info.plist */,
+				062B792D218265E2006ADA88 /* iKidUITests.swift */,
+				062B792F218265E2006ADA88 /* Info.plist */,
 			);
 			path = iKidUITests;
 			sourceTree = "<group>";
@@ -128,13 +137,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		062B789321825D03006ADA88 /* iKid */ = {
+		062B7907218265DE006ADA88 /* iKid */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 062B78BC21825D06006ADA88 /* Build configuration list for PBXNativeTarget "iKid" */;
+			buildConfigurationList = 062B7932218265E2006ADA88 /* Build configuration list for PBXNativeTarget "iKid" */;
 			buildPhases = (
-				062B789021825D03006ADA88 /* Sources */,
-				062B789121825D03006ADA88 /* Frameworks */,
-				062B789221825D03006ADA88 /* Resources */,
+				062B7904218265DE006ADA88 /* Sources */,
+				062B7905218265DE006ADA88 /* Frameworks */,
+				062B7906218265DE006ADA88 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,69 +151,69 @@
 			);
 			name = iKid;
 			productName = iKid;
-			productReference = 062B789421825D03006ADA88 /* iKid.app */;
+			productReference = 062B7908218265DE006ADA88 /* iKid.app */;
 			productType = "com.apple.product-type.application";
 		};
-		062B78A721825D06006ADA88 /* iKidTests */ = {
+		062B791D218265E2006ADA88 /* iKidTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 062B78BF21825D06006ADA88 /* Build configuration list for PBXNativeTarget "iKidTests" */;
+			buildConfigurationList = 062B7935218265E2006ADA88 /* Build configuration list for PBXNativeTarget "iKidTests" */;
 			buildPhases = (
-				062B78A421825D06006ADA88 /* Sources */,
-				062B78A521825D06006ADA88 /* Frameworks */,
-				062B78A621825D06006ADA88 /* Resources */,
+				062B791A218265E2006ADA88 /* Sources */,
+				062B791B218265E2006ADA88 /* Frameworks */,
+				062B791C218265E2006ADA88 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				062B78AA21825D06006ADA88 /* PBXTargetDependency */,
+				062B7920218265E2006ADA88 /* PBXTargetDependency */,
 			);
 			name = iKidTests;
 			productName = iKidTests;
-			productReference = 062B78A821825D06006ADA88 /* iKidTests.xctest */;
+			productReference = 062B791E218265E2006ADA88 /* iKidTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		062B78B221825D06006ADA88 /* iKidUITests */ = {
+		062B7928218265E2006ADA88 /* iKidUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 062B78C221825D06006ADA88 /* Build configuration list for PBXNativeTarget "iKidUITests" */;
+			buildConfigurationList = 062B7938218265E2006ADA88 /* Build configuration list for PBXNativeTarget "iKidUITests" */;
 			buildPhases = (
-				062B78AF21825D06006ADA88 /* Sources */,
-				062B78B021825D06006ADA88 /* Frameworks */,
-				062B78B121825D06006ADA88 /* Resources */,
+				062B7925218265E2006ADA88 /* Sources */,
+				062B7926218265E2006ADA88 /* Frameworks */,
+				062B7927218265E2006ADA88 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				062B78B521825D06006ADA88 /* PBXTargetDependency */,
+				062B792B218265E2006ADA88 /* PBXTargetDependency */,
 			);
 			name = iKidUITests;
 			productName = iKidUITests;
-			productReference = 062B78B321825D06006ADA88 /* iKidUITests.xctest */;
+			productReference = 062B7929218265E2006ADA88 /* iKidUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		062B788C21825D03006ADA88 /* Project object */ = {
+		062B7900218265DE006ADA88 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Nathan Han";
 				TargetAttributes = {
-					062B789321825D03006ADA88 = {
+					062B7907218265DE006ADA88 = {
 						CreatedOnToolsVersion = 10.0;
 					};
-					062B78A721825D06006ADA88 = {
+					062B791D218265E2006ADA88 = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 062B789321825D03006ADA88;
+						TestTargetID = 062B7907218265DE006ADA88;
 					};
-					062B78B221825D06006ADA88 = {
+					062B7928218265E2006ADA88 = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 062B789321825D03006ADA88;
+						TestTargetID = 062B7907218265DE006ADA88;
 					};
 				};
 			};
-			buildConfigurationList = 062B788F21825D03006ADA88 /* Build configuration list for PBXProject "iKid" */;
+			buildConfigurationList = 062B7903218265DE006ADA88 /* Build configuration list for PBXProject "iKid" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +221,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 062B788B21825D03006ADA88;
-			productRefGroup = 062B789521825D03006ADA88 /* Products */;
+			mainGroup = 062B78FF218265DE006ADA88;
+			productRefGroup = 062B7909218265DE006ADA88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				062B789321825D03006ADA88 /* iKid */,
-				062B78A721825D06006ADA88 /* iKidTests */,
-				062B78B221825D06006ADA88 /* iKidUITests */,
+				062B7907218265DE006ADA88 /* iKid */,
+				062B791D218265E2006ADA88 /* iKidTests */,
+				062B7928218265E2006ADA88 /* iKidUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		062B789221825D03006ADA88 /* Resources */ = {
+		062B7906218265DE006ADA88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				062B78A221825D06006ADA88 /* LaunchScreen.storyboard in Resources */,
-				062B789F21825D06006ADA88 /* Assets.xcassets in Resources */,
-				062B789D21825D03006ADA88 /* Main.storyboard in Resources */,
+				062B7918218265E1006ADA88 /* LaunchScreen.storyboard in Resources */,
+				062B7915218265E1006ADA88 /* Assets.xcassets in Resources */,
+				062B7913218265DE006ADA88 /* Main.storyboard in Resources */,
+				062B7940218281B8006ADA88 /* SpiderManMom.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		062B78A621825D06006ADA88 /* Resources */ = {
+		062B791C218265E2006ADA88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		062B78B121825D06006ADA88 /* Resources */ = {
+		062B7927218265E2006ADA88 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +262,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		062B789021825D03006ADA88 /* Sources */ = {
+		062B7904218265DE006ADA88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				062B789A21825D03006ADA88 /* ViewController.swift in Sources */,
-				062B789821825D03006ADA88 /* AppDelegate.swift in Sources */,
+				062B793E218279B6006ADA88 /* TrumpViewController.swift in Sources */,
+				062B7910218265DE006ADA88 /* CollegeViewController.swift in Sources */,
+				062B790C218265DE006ADA88 /* AppDelegate.swift in Sources */,
+				062B790E218265DE006ADA88 /* MarvelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		062B78A421825D06006ADA88 /* Sources */ = {
+		062B791A218265E2006ADA88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				062B78AD21825D06006ADA88 /* iKidTests.swift in Sources */,
+				062B7923218265E2006ADA88 /* iKidTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		062B78AF21825D06006ADA88 /* Sources */ = {
+		062B7925218265E2006ADA88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				062B78B821825D06006ADA88 /* iKidUITests.swift in Sources */,
+				062B792E218265E2006ADA88 /* iKidUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		062B78AA21825D06006ADA88 /* PBXTargetDependency */ = {
+		062B7920218265E2006ADA88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 062B789321825D03006ADA88 /* iKid */;
-			targetProxy = 062B78A921825D06006ADA88 /* PBXContainerItemProxy */;
+			target = 062B7907218265DE006ADA88 /* iKid */;
+			targetProxy = 062B791F218265E2006ADA88 /* PBXContainerItemProxy */;
 		};
-		062B78B521825D06006ADA88 /* PBXTargetDependency */ = {
+		062B792B218265E2006ADA88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 062B789321825D03006ADA88 /* iKid */;
-			targetProxy = 062B78B421825D06006ADA88 /* PBXContainerItemProxy */;
+			target = 062B7907218265DE006ADA88 /* iKid */;
+			targetProxy = 062B792A218265E2006ADA88 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		062B789B21825D03006ADA88 /* Main.storyboard */ = {
+		062B7911218265DE006ADA88 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				062B789C21825D03006ADA88 /* Base */,
+				062B7912218265DE006ADA88 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		062B78A021825D06006ADA88 /* LaunchScreen.storyboard */ = {
+		062B7916218265E1006ADA88 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				062B78A121825D06006ADA88 /* Base */,
+				062B7917218265E1006ADA88 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +324,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		062B78BA21825D06006ADA88 /* Debug */ = {
+		062B7930218265E2006ADA88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -373,7 +385,7 @@
 			};
 			name = Debug;
 		};
-		062B78BB21825D06006ADA88 /* Release */ = {
+		062B7931218265E2006ADA88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -428,7 +440,7 @@
 			};
 			name = Release;
 		};
-		062B78BD21825D06006ADA88 /* Debug */ = {
+		062B7933218265E2006ADA88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -446,7 +458,7 @@
 			};
 			name = Debug;
 		};
-		062B78BE21825D06006ADA88 /* Release */ = {
+		062B7934218265E2006ADA88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -464,7 +476,7 @@
 			};
 			name = Release;
 		};
-		062B78C021825D06006ADA88 /* Debug */ = {
+		062B7936218265E2006ADA88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -485,7 +497,7 @@
 			};
 			name = Debug;
 		};
-		062B78C121825D06006ADA88 /* Release */ = {
+		062B7937218265E2006ADA88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -506,7 +518,7 @@
 			};
 			name = Release;
 		};
-		062B78C321825D06006ADA88 /* Debug */ = {
+		062B7939218265E2006ADA88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -526,7 +538,7 @@
 			};
 			name = Debug;
 		};
-		062B78C421825D06006ADA88 /* Release */ = {
+		062B793A218265E2006ADA88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -549,43 +561,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		062B788F21825D03006ADA88 /* Build configuration list for PBXProject "iKid" */ = {
+		062B7903218265DE006ADA88 /* Build configuration list for PBXProject "iKid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				062B78BA21825D06006ADA88 /* Debug */,
-				062B78BB21825D06006ADA88 /* Release */,
+				062B7930218265E2006ADA88 /* Debug */,
+				062B7931218265E2006ADA88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		062B78BC21825D06006ADA88 /* Build configuration list for PBXNativeTarget "iKid" */ = {
+		062B7932218265E2006ADA88 /* Build configuration list for PBXNativeTarget "iKid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				062B78BD21825D06006ADA88 /* Debug */,
-				062B78BE21825D06006ADA88 /* Release */,
+				062B7933218265E2006ADA88 /* Debug */,
+				062B7934218265E2006ADA88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		062B78BF21825D06006ADA88 /* Build configuration list for PBXNativeTarget "iKidTests" */ = {
+		062B7935218265E2006ADA88 /* Build configuration list for PBXNativeTarget "iKidTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				062B78C021825D06006ADA88 /* Debug */,
-				062B78C121825D06006ADA88 /* Release */,
+				062B7936218265E2006ADA88 /* Debug */,
+				062B7937218265E2006ADA88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		062B78C221825D06006ADA88 /* Build configuration list for PBXNativeTarget "iKidUITests" */ = {
+		062B7938218265E2006ADA88 /* Build configuration list for PBXNativeTarget "iKidUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				062B78C321825D06006ADA88 /* Debug */,
-				062B78C421825D06006ADA88 /* Release */,
+				062B7939218265E2006ADA88 /* Debug */,
+				062B793A218265E2006ADA88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 062B788C21825D03006ADA88 /* Project object */;
+	rootObject = 062B7900218265DE006ADA88 /* Project object */;
 }

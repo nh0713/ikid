@@ -25,7 +25,7 @@ class TrumpViewController: UIViewController {
         var option: UIView.AnimationOptions = .transitionFlipFromRight
         if self.isFrontVisible {
             self.isFrontVisible = false
-            self.lblJokeText.text = "Juan by Juan\n\nDisclaimer: I am not a Trump, supporter nor do I agree with his immigration policies.  This joke is purly for comedic purposes."
+            self.lblJokeText.text = "Juan by Juan\n\nDisclaimer: I am not a Trump supporter, nor do I agree with his immigration policies.  This joke is purly for comedic purposes."
             option = .transitionFlipFromRight
         } else {
             self.isFrontVisible = true
